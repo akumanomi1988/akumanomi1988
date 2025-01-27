@@ -11,6 +11,8 @@ I'm a passionate developer with almost 10 years of professional experience in **
 ### 🚀 My Top Projects
 Here are some of the projects I'm most proud of:
 
+- [AkumaImageEffect](https://github.com/akumanomi1988/AkumaImageEffect) ![Repo Size](https://img.shields.io/github/repo-size/akumanomi1988/AkumaImageEffect?color=blue) - Wrapper for apply effects to images turning into video 🎥.
+- [AkumaSubtitler](https://github.com/akumanomi1988/AkumaSubtitler) ![Repo Size](https://img.shields.io/github/repo-size/akumanomi1988/AkumaSubtitler?color=blue) - Wrapper for easy subtitle 🎥.
 - [AutoPost](https://github.com/akumanomi1988/AutoPost) ![Repo Size](https://img.shields.io/github/repo-size/akumanomi1988/AutoPost?color=blue) - A powerful automation tool for social media posting 📱.
 - [VideoNews](https://github.com/akumanomi1988/VideoNews) ![Last Commit](https://img.shields.io/github/last-commit/akumanomi1988/VideoNews?color=yellow) - Convert news into engaging video content 🎥.
 - [TapMonster_AutoBot](https://github.com/akumanomi1988/TapMonster_AutoBot) ![Languages](https://img.shields.io/github/languages/top/akumanomi1988/TapMonster_AutoBot?color=orange) - A bot designed to automate the gameplay of Tap Monster 🕹️.
