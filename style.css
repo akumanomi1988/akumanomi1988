@@ -1,0 +1,546 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #222222;
+    color: #eeeeee;
+    font-family: sans-serif; /* Added a default font */
+    /* display: flex; Flex properties removed as content will flow normally */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    padding-top: 80px; /* Add padding to body to account for fixed header height. Adjust as needed. */
+}
+
+/* Remove or comment out h1 styles if no longer needed globally */
+/* h1 {
+    text-align: center;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #333333; /* Slightly lighter than body for separation */
+    border-bottom: 1px solid #444444; /* Subtle border */
+    width: 100%; /* Make header span full width */
+    position: fixed; /* Keep header at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure header is above other content */
+}
+
+.logo {
+    font-size: 1.8em; /* Increased font size */
+    color: #eeeeee;
+    font-weight: bold; /* Make logo text bold */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 30px; /* Spacing between nav items */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* No margin for the first item */
+}
+
+nav a {
+    color: #cccccc; /* Light grey for nav links */
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px 10px; /* Add some padding for easier clicking */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #39FF14; /* Neon green accent for hover */
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 80vh; /* Adjust as needed, considering fixed header */
+    padding: 50px;
+    background-color: #222222; /* Same as body or a subtle variation */
+}
+
+#hero h1 {
+    font-size: 3.5em; /* Large font for name */
+    color: #eeeeee; /* White or light color */
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+#hero .tagline {
+    font-size: 1.4em; /* Readable tagline size */
+    color: #cccccc; /* Light grey */
+    margin-bottom: 30px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 0.4s;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-out forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cta-button {
+    padding: 12px 25px; /* Slightly larger padding */
+    margin: 0 10px;
+    text-decoration: none;
+    border: 2px solid #39FF14; /* Neon green accent */
+    color: #39FF14; /* Neon green accent */
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #39FF14; /* Neon green accent */
+    color: #222222; /* Dark background for text */
+}
+
+main {
+    padding-top: 20px; /* Give some space below the fixed header */
+}
+
+#about {
+    padding: 40px 50px;
+    text-align: center; /* Center the content of About Me section */
+}
+
+#about h2 {
+    font-size: 2.5em;
+    color: #eeeeee;
+    margin-bottom: 30px; /* Consistent margin */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#about p {
+    font-size: 1.1em; /* Readable paragraph text */
+    color: #cccccc;
+    line-height: 1.8; /* Improved readability */
+    max-width: 800px; /* Constrain width for better readability */
+    margin: 0 auto 20px auto; /* Center paragraph and add bottom margin */
+}
+
+#projects {
+    padding: 40px 50px;
+    text-align: center; /* Center the section title */
+}
+
+#projects h2 {
+    font-size: 2.5em; /* Larger font for section title */
+    color: #eeeeee;
+    margin-bottom: 40px; /* Space below the title */
+    text-transform: uppercase; /* Optional: stylistic choice */
+    letter-spacing: 2px; /* Optional: stylistic choice */
+}
+
+.repo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 30px; /* Increased gap */
+    text-align: left; /* Reset text-align for cards */
+}
+
+.repo-card {
+    background-color: #2c2c2c; /* Slightly lighter than body, darker than header */
+    padding: 25px; /* Increased padding */
+    border-radius: 10px; /* More pronounced border-radius */
+    border: 1px solid #444444;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex; /* Use flexbox for card content layout */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Distribute space */
+}
+
+.repo-card:hover {
+    transform: translateY(-8px); /* Slightly more lift */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adjusted shadow for dark theme */
+}
+
+.repo-card h3 {
+    font-size: 1.6em; /* Slightly larger repo name */
+    margin-bottom: 10px;
+}
+
+.repo-card a {
+    color: #39FF14; /* Neon green accent for repo names */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.repo-card a:hover {
+    text-decoration: underline;
+}
+
+.repo-card p {
+    font-size: 0.95em; /* Slightly smaller description text */
+    color: #cccccc;
+    margin-bottom: 15px;
+    flex-grow: 1; /* Allow description to take available space */
+}
+
+.repo-card span {
+    display: block; /* Make spans take full width for better spacing */
+    font-size: 0.85em;
+    color: #aaaaaa;
+    margin-bottom: 8px;
+}
+
+.repo-card span:last-child {
+    margin-bottom: 0;
+}
+
+/* Styling for loading/error messages in repo-container */
+.repo-container p {
+    color: #cccccc;
+    font-size: 1.1em;
+    text-align: center; /* Center the paragraph text if it's a message */
+    grid-column: 1 / -1; /* Make message span all columns if grid is active */
+}
+
+/* Scroll Animations */
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#contact {
+    padding: 40px 50px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    color: #eeeeee;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#contact p {
+    font-size: 1.1em;
+    color: #cccccc;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 30px auto; /* Increased bottom margin */
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border: 2px solid #555555; /* Lighter grey for border */
+    color: #cccccc; /* Light grey for text */
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #39FF14; /* Neon green accent */
+    color: #222222; /* Dark background for text */
+    border-color: #39FF14; /* Neon green accent for border on hover */
+}
+
+#skills {
+    padding: 40px 50px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    color: #eeeeee;
+    margin-bottom: 40px; /* Increased margin for better separation */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around; /* Distribute categories evenly */
+    flex-wrap: wrap;
+    gap: 30px; /* Space between category blocks */
+    margin-top: 30px;
+    text-align: left; /* Reset text-align for content within categories */
+}
+
+.skill-category {
+    background-color: #2c2c2c; /* Background for each category block */
+    padding: 30px; /* Increased padding */
+    border-radius: 10px; /* Rounded corners for category blocks */
+    border: 1px solid #444444;
+    flex-basis: 300px; /* Minimum width for each category */
+    flex-grow: 1; /* Allow categories to grow and fill space */
+    max-width: 400px; /* Max width to prevent them from becoming too wide */
+}
+
+#skills h3 {
+    font-size: 1.6em; /* Slightly larger category titles */
+    color: #39FF14; /* Neon green accent */
+    margin-bottom: 20px; /* Increased margin */
+    border-bottom: 2px solid #39FF14; /* Accent border under H3 */
+    padding-bottom: 10px; /* Space between text and border */
+    text-align: center; /* Center category titles */
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #333333;
+    color: #cccccc;
+    padding: 12px 18px; /* Increased padding */
+    margin-bottom: 10px; /* Increased margin */
+    border-radius: 5px;
+    border-left: 4px solid #39FF14; /* Slightly thicker border */
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.skills-list li:hover {
+    transform: translateX(5px);
+    background-color: #3a3a3a; /* Slightly lighter for hover */
+}
+
+/* --- Responsive Design Adjustments --- */
+
+/* For tablets and smaller desktops */
+@media (max-width: 992px) {
+    header {
+        padding: 15px 30px;
+    }
+    body {
+        /* Initial padding-top for fixed header is 80px */
+        /* If header height changes significantly at this breakpoint, adjust this */
+    }
+    #hero h1 {
+        font-size: 3em;
+    }
+    #hero .tagline {
+        font-size: 1.3em;
+    }
+    #about p, #contact p {
+        max-width: 90%;
+    }
+    .repo-container {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+    .skill-category {
+        flex-basis: calc(50% - 20px); /* Two categories per row, considering gap */
+        max-width: calc(50% - 20px);
+    }
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    nav ul li {
+        margin: 8px 0;
+    }
+    body {
+        padding-top: 140px; /* Adjusted for taller stacked header */
+    }
+
+    #hero {
+        min-height: 70vh;
+        padding: 30px;
+    }
+    #hero h1 {
+        font-size: 2.5em; /* Reduced from 3.5em */
+    }
+    #hero .tagline {
+        font-size: 1.2em; /* Reduced from 1.4em */
+    }
+    .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cta-button {
+        margin: 10px 0; /* Stacked buttons */
+        width: 80%;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    #about, #skills, #projects, #contact {
+        padding: 30px 20px;
+    }
+    #about h2, #skills h2, #projects h2, #contact h2 {
+        font-size: 2em; /* Reduced from 2.5em */
+        margin-bottom: 25px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill-category {
+        flex-basis: 100%; /* Full width for stacked categories */
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .skill-category:last-child {
+        margin-bottom: 0;
+    }
+
+    .repo-container {
+        grid-template-columns: 1fr; /* Single column for project cards */
+        gap: 20px;
+    }
+    .repo-card {
+        padding: 20px;
+    }
+    .repo-card h3 {
+        font-size: 1.4em;
+    }
+
+    .contact-links {
+        flex-direction: column; /* Stack contact links for easier tapping */
+    }
+    .contact-link {
+        margin: 8px 0;
+        width: 80%;
+        max-width: 280px;
+        text-align: center;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+    }
+    .logo {
+        font-size: 1.5em; /* Further reduce logo size */
+    }
+    nav a {
+        font-size: 1em; /* Reduce nav link font size */
+    }
+    body {
+        padding-top: 130px; /* Adjusted for potentially shorter header */
+    }
+
+    #hero {
+        min-height: 60vh;
+        padding: 20px;
+    }
+    #hero h1 {
+        font-size: 2em; /* Further reduced */
+    }
+    #hero .tagline {
+        font-size: 1em; /* Further reduced */
+    }
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    #about, #skills, #projects, #contact {
+        padding: 25px 15px;
+    }
+    #about h2, #skills h2, #projects h2, #contact h2 {
+        font-size: 1.8em; /* Further reduced */
+        margin-bottom: 20px;
+    }
+    #about p, #contact p {
+        font-size: 0.95em;
+        line-height: 1.7;
+    }
+
+    .skill-category {
+        padding: 20px;
+    }
+    #skills h3 {
+        font-size: 1.4em;
+    }
+    .skills-list li {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+    .repo-card {
+        padding: 15px;
+    }
+    .repo-card h3 {
+        font-size: 1.3em;
+    }
+    .repo-card p {
+        font-size: 0.9em;
+    }
+    .repo-card span {
+        font-size: 0.8em;
+    }
+
+    .contact-link {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+}
