@@ -27,11 +27,6 @@ The short version? **I like building software, not just writing individual featu
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/akumanomi1988/akumanomi1988/main/assets/github-pulse-still.svg">
-  <img src="https://raw.githubusercontent.com/akumanomi1988/akumanomi1988/main/assets/github-pulse.svg" width="100%" alt="GitHub pulse — stars, followers, public repositories and profile views">
-</picture>
-
 <a href="https://github.com/akumanomi1988?tab=repositories"><img src="https://img.shields.io/github/stars/akumanomi1988?affiliations=OWNER&amp;style=for-the-badge&amp;label=Stars%20received&amp;labelColor=111B31&amp;color=5CE1CE" alt="Stars received by my public GitHub repositories"></a>
 <a href="https://github.com/akumanomi1988?tab=followers"><img src="https://img.shields.io/github/followers/akumanomi1988?style=for-the-badge&amp;label=Followers&amp;labelColor=111B31&amp;color=A78BFA" alt="GitHub followers"></a>
 <a href="https://github.com/akumanomi1988?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fakumanomi1988&amp;query=%24.public_repos&amp;style=for-the-badge&amp;label=Public%20repos&amp;labelColor=111B31&amp;color=5CE1CE" alt="Number of public GitHub repositories"></a>
