@@ -11,7 +11,7 @@
 
 I build Windows applications, web products and automation tools. Sometimes they turn into bigger projects than I originally planned.
 
-[**See the projects ↓**](#things-ive-built) &nbsp;·&nbsp; [**My stack**](#the-stack) &nbsp;·&nbsp; [**More experiments**](#more-from-my-workbench)
+[**See the projects ↓**](#things-ive-built) &nbsp;·&nbsp; [**My stack**](#the-stack) &nbsp;·&nbsp; [**GitHub stats**](#on-github) &nbsp;·&nbsp; [**More experiments**](#more-from-my-workbench)
 
 </div>
 
@@ -22,6 +22,58 @@ Most of my professional background is in **C#, VB.NET, .NET and SQL Server**, es
 I enjoy working across the whole project: the database, the backend, the UI and whatever is needed to make it usable. I particularly like combining **WinForms + WebView2 + React** when a Windows app benefits from a modern interface.
 
 The short version? **I like building software, not just writing individual features.**
+
+## On GitHub
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/akumanomi1988/akumanomi1988/main/assets/github-pulse-still.svg">
+  <img src="https://raw.githubusercontent.com/akumanomi1988/akumanomi1988/main/assets/github-pulse.svg" width="100%" alt="GitHub pulse — stars, followers, public repositories and profile views">
+</picture>
+
+<a href="https://github.com/akumanomi1988?tab=repositories"><img src="https://img.shields.io/github/stars/akumanomi1988?affiliations=OWNER&amp;style=for-the-badge&amp;label=Stars%20received&amp;labelColor=111B31&amp;color=5CE1CE" alt="Stars received by my public GitHub repositories"></a>
+<a href="https://github.com/akumanomi1988?tab=followers"><img src="https://img.shields.io/github/followers/akumanomi1988?style=for-the-badge&amp;label=Followers&amp;labelColor=111B31&amp;color=A78BFA" alt="GitHub followers"></a>
+<a href="https://github.com/akumanomi1988?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fakumanomi1988&amp;query=%24.public_repos&amp;style=for-the-badge&amp;label=Public%20repos&amp;labelColor=111B31&amp;color=5CE1CE" alt="Number of public GitHub repositories"></a>
+<a href="https://github.com/akumanomi1988"><img src="https://komarev.com/ghpvc/?username=akumanomi1988&amp;label=Profile%20hits&amp;style=for-the-badge&amp;color=FFC078&amp;abbreviated=true" alt="Profile page hits recorded by an external counter"></a>
+
+<br><br>
+
+<a href="https://github.com/akumanomi1988?tab=repositories">Repositories</a> &nbsp;·&nbsp;
+<a href="https://github.com/akumanomi1988?tab=stars">Repos I've starred</a> &nbsp;·&nbsp;
+<a href="https://github.com/akumanomi1988?tab=followers">Followers</a> &nbsp;·&nbsp;
+<a href="https://github.com/akumanomi1988?tab=overview">Contributions</a>
+
+</div>
+
+<details>
+<summary><b>Explore my GitHub stats and most-used public repo languages</b></summary>
+
+<br>
+
+<table>
+<tr>
+<td width="54%" valign="top"><img src="https://github-stats-extended.vercel.app/api?username=akumanomi1988&amp;show_icons=true&amp;hide_rank=true&amp;bg_color=101A31&amp;title_color=5CE1CE&amp;text_color=F2F5FF&amp;icon_color=A78BFA&amp;border_color=3B526C&amp;card_width=470" width="100%" alt="GitHub public activity: stars, commits, pull requests and issues"></td>
+<td width="46%" valign="top"><img src="https://github-stats-extended.vercel.app/api/top-langs/?username=akumanomi1988&amp;layout=compact&amp;langs_count=7&amp;bg_color=101A31&amp;title_color=5CE1CE&amp;text_color=F2F5FF&amp;border_color=3B526C&amp;card_width=395" width="100%" alt="Languages measured across public repositories"></td>
+</tr>
+</table>
+
+<sub>These are third-party summaries of public GitHub activity. Language percentages are based on repository code, not professional experience, and image caching means the data may lag behind GitHub.</sub>
+
+</details>
+
+<details>
+<summary><b>See the recent contribution activity graph</b></summary>
+
+<br>
+
+<a href="https://github.com/akumanomi1988?tab=overview"><img src="https://github-readme-activity-graph.vercel.app/graph?username=akumanomi1988&amp;bg_color=101A31&amp;color=B8C8DF&amp;title_color=5CE1CE&amp;line=5CE1CE&amp;point=A78BFA&amp;area_color=5CE1CE&amp;area=true&amp;border_color=3B526C&amp;days=31&amp;radius=10&amp;custom_title=Public%20GitHub%20activity" width="100%" alt="Graph of recent public GitHub activity"></a>
+
+<sub>The chart reflects public activity visible to its provider; GitHub's own contribution graph is available on the profile.</sub>
+
+</details>
+
+<sub>Profile hits are image requests counted by a third-party service (not unique visitors or GitHub's official traffic analytics). Tracking starts when the counter is first embedded. Other counts may be cached.</sub>
 
 ## The stack
 

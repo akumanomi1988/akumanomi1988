@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="131" viewBox="0 0 1200 131" role="img" aria-labelledby="pulse-title pulse-desc">
+<title id="pulse-title">GitHub pulse</title><desc id="pulse-desc">Animated profile statistics banner listing stars, followers, public repositories and profile hits; actual values appear below as live badges.</desc>
+<defs><linearGradient id="b" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0D1930"/><stop offset="1" stop-color="#0C1122"/></linearGradient><linearGradient id="a" x1="0" x2="1"><stop stop-color="#5CE1CE"/><stop offset=".55" stop-color="#A78BFA"/><stop offset="1" stop-color="#FFC078"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="129" rx="19" fill="url(#b)" stroke="#728BAF" stroke-opacity=".38"/>
+<text x="27" y="29" font-family="Consolas,monospace" font-size="15" font-weight="700" letter-spacing="2.8" fill="#F2F5FF">GITHUB / PULSE</text>
+<text x="1173" y="29" text-anchor="end" font-family="Consolas,monospace" font-size="12" fill="#91A2C4">PUBLIC ACTIVITY · UPDATING COUNTERS</text>
+<path d="M28 45 H1172" stroke="url(#a)" stroke-opacity=".5" stroke-width="1.2"/>
+<path d="M28 45 H260" stroke="url(#a)" stroke-width="2.3"></path>
+
+<g>
+<rect x="88" y="63" width="247" height="43" rx="12" fill="#15223A" stroke="#5CE1CE" stroke-opacity=".3"/>
+<circle cx="108" cy="84.5" r="4.5" fill="#5CE1CE"></circle>
+<text x="122" y="90" font-family="Consolas,monospace" font-size="15" font-weight="700" fill="#DAE5F9" letter-spacing="1">STARS</text>
+<path d="M283 84.5 h25" stroke="#5CE1CE" stroke-opacity=".38" stroke-width="2" stroke-dasharray="4 6">
+</path>
+</g>
+<g>
+<rect x="382" y="63" width="247" height="43" rx="12" fill="#15223A" stroke="#A78BFA" stroke-opacity=".3"/>
+<circle cx="402" cy="84.5" r="4.5" fill="#A78BFA"></circle>
+<text x="416" y="90" font-family="Consolas,monospace" font-size="15" font-weight="700" fill="#DAE5F9" letter-spacing="1">FOLLOWERS</text>
+<path d="M577 84.5 h25" stroke="#A78BFA" stroke-opacity=".38" stroke-width="2" stroke-dasharray="4 6">
+</path>
+</g>
+<g>
+<rect x="675" y="63" width="247" height="43" rx="12" fill="#15223A" stroke="#5CE1CE" stroke-opacity=".3"/>
+<circle cx="695" cy="84.5" r="4.5" fill="#5CE1CE"></circle>
+<text x="709" y="90" font-family="Consolas,monospace" font-size="15" font-weight="700" fill="#DAE5F9" letter-spacing="1">REPOS</text>
+<path d="M870 84.5 h25" stroke="#5CE1CE" stroke-opacity=".38" stroke-width="2" stroke-dasharray="4 6">
+</path>
+</g>
+<g>
+<rect x="968" y="63" width="247" height="43" rx="12" fill="#15223A" stroke="#FFC078" stroke-opacity=".3"/>
+<circle cx="988" cy="84.5" r="4.5" fill="#FFC078"></circle>
+<text x="1002" y="90" font-family="Consolas,monospace" font-size="15" font-weight="700" fill="#DAE5F9" letter-spacing="1">PROFILE HITS</text>
+<path d="M1163 84.5 h25" stroke="#FFC078" stroke-opacity=".38" stroke-width="2" stroke-dasharray="4 6">
+</path>
+</g>
+<path d="M32 116 H1168" stroke="#91A2C4" stroke-opacity=".13" stroke-width="1"/>
+</svg>

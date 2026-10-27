@@ -6,6 +6,7 @@ All files are self-hosted, dependency-free SVG artwork for the [profile README](
 - `engineering.svg`: desktop/web/data/automation overview.
 - `projects/*.svg`: animated, clickable project cards (wrapped in links in the README).
 - `footer.svg`: closing banner.
+- `github-pulse.svg`: animated heading for dynamic public GitHub profile metrics; actual metrics come from third-party badges, not the static artwork.
 - Every animated SVG has a matching `-still.svg` for reduced-motion preferences.
 
 These SVGs use declarative SMIL motion, not JavaScript. GitHub does not allow arbitrary scripts or custom interactive web applications inside profile READMEs. The interaction comes from native links, expandable `<details>` panels and section navigation; animation support depends on the rendering client.
