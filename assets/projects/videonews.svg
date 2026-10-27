@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="205" viewBox="0 0 600 205" role="img" aria-labelledby="title desc">
+<title id="title">VideoNews</title><desc id="desc">From a news article to a finished video</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101E36"/><stop offset="1" stop-color="#0B1122"/></linearGradient></defs>
+<rect x="1" y="1" width="598" height="203" rx="19" fill="url(#bg)" stroke="#6F8BAF" stroke-opacity=".45"/>
+<path d="M20 18 H578" stroke="#FFC078" stroke-opacity=".33" stroke-width="2" stroke-dasharray="20 8"><animate attributeName="stroke-dashoffset" from="0" to="-112" dur="9s" repeatCount="indefinite"/></path>
+<text x="24" y="51" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.6" fill="#FFC078">PYTHON / AUTOMATION</text>
+<text x="22" y="102" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="800" fill="#F2F5FF">VideoNews</text>
+<text x="24" y="132" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#B0BFDA">From a news article to a finished video</text>
+<rect x="22" y="160" width="340" height="27" rx="11" fill="#1B2941"/>
+<text x="33" y="178" font-family="Consolas,monospace" font-size="11" fill="#BFD0E5">PYTHON    FFMPEG    AUTOMATION</text>
+<g opacity=".95"><g transform="translate(427 87)"><rect x="0" y="1" width="130" height="85" rx="11" fill="#1C2842" stroke="#FFC078" stroke-opacity=".5"/><rect x="10" y="11" width="110" height="45" rx="5" fill="#263750"/><path d="M 49 19 L 49 48 L 78 34 Z" fill="#FFC078"/><g fill="#FFC078"><rect x="13" y="65" width="7" height="8" rx="2"><animate attributeName="height" values="8;15;8" dur="1.2s" repeatCount="indefinite"/></rect><rect x="26" y="62" width="7" height="15" rx="2"><animate attributeName="height" values="15;8;15" dur="1.8s" repeatCount="indefinite"/></rect><rect x="39" y="65" width="7" height="8" rx="2"><animate attributeName="height" values="8;13;8" dur="1.5s" repeatCount="indefinite"/></rect></g></g></g>
+<path d="M567 152 L581 166 L567 180" stroke="#FFC078" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

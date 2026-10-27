@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-<title id="title">AKUMA DEV — Engineering systems that scale</title><desc id="desc">Animated midnight-blue developer banner, moving data routes and an engineering terminal showcasing .NET, TypeScript, cloud systems and applied AI.</desc>
+<title id="title">AKUMA DEV — Desktop, web, data and software tools</title><desc id="desc">Animated midnight-blue developer banner, moving data routes and an engineering terminal showcasing desktop, web, data and automation.</desc>
 <defs>
  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0C1731"/><stop offset=".48" stop-color="#080D1B"/><stop offset="1" stop-color="#10142A"/></linearGradient>
  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5CE1CE"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#FFC078"/></linearGradient>
@@ -23,18 +23,18 @@
 </g>
 <rect x="39" y="36" width="10" height="10" rx="2" fill="#5CE1CE"/>
 <text x="61" y="46" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#F2F5FF">AKUMA / DEV</text>
-<text x="730" y="47" font-family="monospace" font-size="12" letter-spacing="2.2" fill="#91A2C4">SYSTEMS ENGINEERING // 001</text>
+<text x="730" y="47" font-family="monospace" font-size="12" letter-spacing="2.2" fill="#91A2C4">SOFTWARE &amp; SIDE PROJECTS // 001</text>
 <path d="M40 65 H1160" stroke="#7892B8" stroke-opacity=".25"/>
 <text x="45" y="132" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="5" fill="#5CE1CE">FULL-STACK DEVELOPER  /  SOFTWARE ARCHITECT</text>
-<text x="39" y="225" font-family="Arial,Helvetica,sans-serif" font-size="87" font-weight="900" letter-spacing="-4" fill="#F2F5FF">BUILD BEYOND</text>
-<text x="44" y="280" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="700" letter-spacing="-1.5" fill="#5CE1CE">the expected.</text>
-<rect x="367" y="249" width="4" height="38" fill="#5CE1CE"></rect>
-<text x="45" y="323" font-family="monospace" font-size="14" fill="#91A2C4">Architecture-first. Product-minded. Built to last.</text>
+<text x="39" y="225" font-family="Arial,Helvetica,sans-serif" font-size="87" font-weight="900" letter-spacing="-4" fill="#F2F5FF">FROM IDEA</text>
+<text x="44" y="280" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="700" letter-spacing="-1.5" fill="#5CE1CE">to working software.</text>
+<rect x="510" y="249" width="4" height="38" fill="#5CE1CE"></rect>
+<text x="45" y="323" font-family="monospace" font-size="14" fill="#91A2C4">Desktop apps, web products and a lot of side projects.</text>
 <g font-family="monospace" font-size="12" font-weight="700">
   <rect x="44" y="347" width="88" height="32" rx="16" fill="#143536" stroke="#5CE1CE" stroke-opacity=".45"/><text x="88" y="368" text-anchor="middle" fill="#5CE1CE">.NET</text>
   <rect x="142" y="347" width="137" height="32" rx="16" fill="#292147" stroke="#A78BFA" stroke-opacity=".48"/><text x="210" y="368" text-anchor="middle" fill="#C8B9FF">TYPESCRIPT</text>
-  <rect x="289" y="347" width="91" height="32" rx="16" fill="#3A2A25" stroke="#FFC078" stroke-opacity=".45"/><text x="335" y="368" text-anchor="middle" fill="#FFC078">CLOUD</text>
-  <rect x="390" y="347" width="100" height="32" rx="16" fill="#143536" stroke="#5CE1CE" stroke-opacity=".45"/><text x="440" y="368" text-anchor="middle" fill="#5CE1CE">AI / RAG</text>
+  <rect x="289" y="347" width="91" height="32" rx="16" fill="#3A2A25" stroke="#FFC078" stroke-opacity=".45"/><text x="335" y="368" text-anchor="middle" fill="#FFC078">PYTHON</text>
+  <rect x="390" y="347" width="100" height="32" rx="16" fill="#143536" stroke="#5CE1CE" stroke-opacity=".45"/><text x="440" y="368" text-anchor="middle" fill="#5CE1CE">SQL / PG</text>
 </g>
 <g transform="translate(751 99)">
   <rect x="0" y="0" width="408" height="254" rx="17" fill="#020817" fill-opacity=".43" stroke="#5CE1CE" stroke-opacity=".12" transform="translate(8 10)"/>
@@ -44,11 +44,11 @@
   <text x="211" y="27" text-anchor="middle" font-family="monospace" font-size="12" fill="#91A2C4">~/engineering/identity.ts</text>
   <g font-family="Consolas,monospace" font-size="16">
     <text x="25" y="79" fill="#91A2C4">01</text><text x="62" y="79" fill="#A78BFA">export const</text><text x="187" y="79" fill="#F2F5FF"> engineer = {</text>
-    <text x="25" y="111" fill="#91A2C4">02</text><text x="69" y="111" fill="#5CE1CE">core:</text><text x="145" y="111" fill="#FFC078">'systems'</text><text x="254" y="111" fill="#91A2C4">,</text>
+    <text x="25" y="111" fill="#91A2C4">02</text><text x="69" y="111" fill="#5CE1CE">core:</text><text x="145" y="111" fill="#FFC078">'software'</text><text x="254" y="111" fill="#91A2C4">,</text>
     <text x="25" y="143" fill="#91A2C4">03</text><text x="69" y="143" fill="#5CE1CE">stack:</text><text x="145" y="143" fill="#FFC078">'.NET + TS'</text><text x="281" y="143" fill="#91A2C4">,</text>
-    <text x="25" y="175" fill="#91A2C4">04</text><text x="69" y="175" fill="#5CE1CE">focus:</text><text x="145" y="175" fill="#FFC078">'scale + AI'</text><text x="297" y="175" fill="#91A2C4">,</text>
+    <text x="25" y="175" fill="#91A2C4">04</text><text x="69" y="175" fill="#5CE1CE">focus:</text><text x="145" y="175" fill="#FFC078">'projects'</text><text x="297" y="175" fill="#91A2C4">,</text>
     <text x="25" y="207" fill="#91A2C4">05</text><text x="69" y="207" fill="#F2F5FF">};</text>
-    <text x="25" y="233" fill="#91A2C4" font-size="12">&gt; systems online</text>
+    <text x="25" y="233" fill="#91A2C4" font-size="12">&gt; ready to build</text>
     <rect x="180" y="223" width="8" height="14" fill="#5CE1CE"></rect>
   </g>
 </g>

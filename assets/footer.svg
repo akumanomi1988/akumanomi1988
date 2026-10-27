@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="135" viewBox="0 0 1200 135" role="img" aria-labelledby="f-title">
-<title id="f-title">Keep building — Akuma Dev</title><defs>
+<title id="f-title">See you in the code — Akuma Dev</title><defs>
 <linearGradient id="bg" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#0A1327"/><stop offset="1" stop-color="#12152D"/></linearGradient>
 <linearGradient id="line" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#5CE1CE"/><stop offset=".52" stop-color="#A78BFA"/><stop offset="1" stop-color="#FFC078"/></linearGradient>
 </defs>
@@ -7,8 +7,8 @@
 <path d="M0 102 C200 46 310 148 530 85 S850 65 1200 28" fill="none" stroke="#5CE1CE" opacity=".16" stroke-width="2"/>
 <path d="M0 123 C220 75 390 120 620 85 S900 91 1200 56" fill="none" stroke="#A78BFA" opacity=".18" stroke-width="2"/>
 <path d="M35 31 H1165" stroke="url(#line)" stroke-width="2" stroke-dasharray="60 28"><animate attributeName="stroke-dashoffset" values="0;-176" dur="5.5s" repeatCount="indefinite"/></path>
-<text x="50" y="83" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" fill="#F2F5FF">KEEP BUILDING.</text>
+<text x="50" y="83" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="800" fill="#F2F5FF">SEE YOU IN THE CODE.</text>
 <text x="1152" y="83" text-anchor="end" font-family="Consolas,monospace" font-size="16" fill="#5CE1CE">AKUMA / DEV  ·  EST. IN CODE</text>
-<text x="52" y="108" font-family="Consolas,monospace" font-size="13" fill="#91A2C4">Less noise. Better systems. Real products.</text>
+<text x="52" y="108" font-family="Consolas,monospace" font-size="13" fill="#91A2C4">Tools, apps, experiments. More on GitHub.</text>
 <circle cx="1125" cy="101" r="4" fill="#5CE1CE"><animate attributeName="opacity" values="1;.1;1" dur="1.4s" repeatCount="indefinite"/></circle>
 </svg>

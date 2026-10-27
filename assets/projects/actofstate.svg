@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="205" viewBox="0 0 600 205" role="img" aria-labelledby="title desc">
+<title id="title">ACT OF STATE</title><desc id="desc">A persistent political strategy game</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101E36"/><stop offset="1" stop-color="#0B1122"/></linearGradient></defs>
+<rect x="1" y="1" width="598" height="203" rx="19" fill="url(#bg)" stroke="#6F8BAF" stroke-opacity=".45"/>
+<path d="M20 18 H578" stroke="#5CE1CE" stroke-opacity=".33" stroke-width="2" stroke-dasharray="20 8"><animate attributeName="stroke-dashoffset" from="0" to="-112" dur="9s" repeatCount="indefinite"/></path>
+<text x="24" y="51" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.6" fill="#5CE1CE">WEB / SIMULATION</text>
+<text x="22" y="102" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="800" fill="#F2F5FF">ACT OF STATE</text>
+<text x="24" y="132" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#B0BFDA">A persistent political strategy game</text>
+<rect x="22" y="160" width="340" height="27" rx="11" fill="#1B2941"/>
+<text x="33" y="178" font-family="Consolas,monospace" font-size="11" fill="#BFD0E5">TYPESCRIPT    POSTGRESQL</text>
+<g opacity=".95"><g transform="translate(422 85)" stroke="#5CE1CE"><rect x="0" y="5" width="131" height="88" rx="9" fill="#1A3040" fill-opacity=".8" stroke-opacity=".4"/><path d="M13 24 H110 M13 34 H100" stroke-opacity=".32" stroke-width="2"/><g fill="#5CE1CE" fill-opacity=".65" stroke="none"><rect x="16" y="63" width="16" height="17" rx="3"/><rect x="43" y="51" width="16" height="29" rx="3"/><rect x="70" y="57" width="16" height="23" rx="3"/><rect x="97" y="44" width="16" height="36" rx="3"/></g><circle cx="106" cy="22" r="5" fill="#5CE1CE" stroke="none"><animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/></circle></g></g>
+<path d="M567 152 L581 166 L567 180" stroke="#5CE1CE" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
